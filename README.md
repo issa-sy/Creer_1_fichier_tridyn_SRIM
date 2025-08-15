@@ -31,17 +31,17 @@ a0 a1 a2 ... a15 cutoff_nm
 
 Dans le script, adaptez les variables suivantes à votre cas :
 
-input_file = "profil.txt"   # Nom du fichier SRIM exporté
+- input_file = "profil.txt"   # Nom du fichier SRIM exporté
 
-output_file = "tridyn.dat"  # Nom du fichier de sortie
+- output_file = "tridyn.dat"  # Nom du fichier de sortie
 
-species = "Xe"              # Espèce implantée (He, Xe, V, I etc.)
+- species = "Xe"              # Espèce implantée (He, Xe, V, I etc.)
 
-size = 1                    # Taille du cluster (1 pour monomère)
+- size = 1                    # Taille du cluster (1 pour monomère)
 
-flux_factor = 1.0           # Facteur multiplicatif appliqué au flux global
+- flux_factor = 1.0           # Facteur multiplicatif appliqué au flux global
 
-degree = 15                 # Ordre du polynôme (15 recommandé pour Xolotl)
+- degree = 15                 # Ordre du polynôme (15 recommandé pour Xolotl)
 
 ## 📥 Exemple d’utilisation
 
@@ -54,11 +54,11 @@ python convert_srim_to_tridyn.py
 
 Inclure le fichier tridyn.dat dans votre fichier .param Xolotl :
 
-material = UO2
+- material = UO2
 
-fluxDepthProfileFilePath = tridyn.dat
+- fluxDepthProfileFilePath = tridyn.dat
 
-flux = 1.0e7
+- flux = 1.0e7
 
 
 ## ⚠️ Remarque sur flux_factor
