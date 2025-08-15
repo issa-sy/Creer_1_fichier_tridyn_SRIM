@@ -1,4 +1,4 @@
-Conversion de profils SRIM en fichiers tridyn.dat pour Xolotl
+#Conversion de profils SRIM en fichiers tridyn.dat pour Xolotl
 
 Ce script Python permet de convertir un profil d’implantation issu de SRIM (ou TRIM) en un fichier au format tridyn.dat compatible avec l’option fluxDepthProfileFilePath de Xolotl.
 
