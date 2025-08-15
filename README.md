@@ -24,8 +24,8 @@ Ajuste un polynôme d’ordre 15 sur le profil (Xolotl nécessite 15 coefficient
 
 Écrit un fichier tridyn.dat au format attendu :
 
-<species> <size> <flux_factor>
-a0 a1 a2 ... a15 cutoff_nm
+- species size flux_factor
+- a0 a1 a2 ... a15 cutoff_nm
 
 ## 📌 Paramètres à modifier
 
